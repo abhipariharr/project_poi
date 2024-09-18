@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Master Stock Market Trading & Investment | Leading Financial Education Institute - Power of Investment</title>
+    <meta name="description" content="Power of Investment empowers individuals with financial literacy and stock market training for all levels. Offering paid and free courses, we provide expert-led education to make informed investment decisions. Our mission is to expand financial knowledge across India, especially in underserved communities.">
+    <meta name="keywords" content="FinancialLiteracy, StockMarketTraining, FinancialEducation, InvestmentCourses, FreeFinancialResources, ExpertFinancialAdvice, FinancialEmpowerment, RuralFinancialEducation, WealthBuilding, FinancialIndependence">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <link href="./Content/img/favicon.ico" rel="icon" />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Libraries Stylesheet -->
+    <link href="./Content/lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="./Content/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="./Content/lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="./Content/css/bootstrap-datepicker3.min.css" rel="stylesheet" />
+    <link href="./Content/css/bootstrap.min-Home.css" rel="stylesheet" />
+    <link href="./Content/css/jquery-ui.css" rel="stylesheet" />
+    <link href="./Content/css/css/style.css" rel="stylesheet" />
+        <link href="./Content/css/style1.css" rel="stylesheet" /> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css" rel="stylesheet">
+
+    
+    <style>
+        .social-icon {
+            width: 24px;
+            /* Increase the size as needed */
+            height: 24px;
+            /* Ensure it's a square */
+        }
+
+        .btn-square {
+            width: 48px;
+            /* Adjust button size to match image size */
+            height: 48px;
+        }
+        pre {
+            background-color: transparent;
+            border: none;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .img-thumbnail {
+            max-width: 100%; /* Ensure the image fits within the column */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .vision-section {
+            background-color: #121D26;
+            padding: 20px;
+            color: #FFFFFF;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .vision-icon {
+            background-color: #76C043;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+        }
+        .vision-icon img {
+            width: 30px;
+        }
+        .section {
+            background-color: #121D26;
+            padding: 20px;
+            color: #FFFFFF;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px; /* To create space between sections */
+        }
+        .icon {
+            background-color: #76C043;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+        }
+        .icon img {
+            width: 30px;
+            margin-top: 5px; /* Optional: Adjust as needed */
+        }
+
+        .section1 {
+    border: 1px solid #ddd; /* Optional: Add a border to define the box */
+    padding: 15px; /* Add padding for spacing inside the box */
+    background-color: #f9f9f9; /* Optional: Add a background color */
+}
+
+.text-center {
+    text-align: center; /* Center align text under the image */
+}
+
+.img-fluid {
+    max-width: 90%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+.page-header {
+    padding-top: 70px; /* Adjust this value based on the height of your fixed header */
+}
+    #moreText {
+    display: none;
+}
+
+.section1 {
+    min-height: 400px; /* Set a minimum height to prevent layout shifts */
+    position: relative; /* Positioning relative to the container */
+    padding-bottom: 60px; /* Space for the button at the bottom */
+}
+
+#toggleButton, #courseToggleButton, #trainerToggleButton {
+    color: blue;
+    background-color: transparent;
+    border: 1px solid blue;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px; /* Add some margin for spacing */
+    position: absolute;
+    bottom: 10px; /* Fix the button at the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#toggleButton:hover, #courseToggleButton:hover,  #trainerToggleButton:hover {
+    background-color: rgba(0, 0, 255, 0.1); /* Light blue background on hover */
+}
+
+#extraContent, #courseExtraContent, #trainingExtraContent {
+    margin-top: 10px; /* Ensure content appears below the button */
+    display: none; /* Hide initially */
+}
+ .row.mt-5 .btn {
+            color: white !important; /* Change text color to white */
+        }
+        .nav-link.active {
+            background-color: blue; /* Background color for the active link */
+            color: white !important; /* Text color for the active link */
+            border-radius: 5px; /* Optional: rounded corners */
+        }
+    </style>
+</head>
+
+<body class="hold-transition skin-green sidebar-mini">
+   
+        <header class="main-header fixed-top">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="/Home/Index">
+                <img src="content/img/logohome.png" alt="Logo" width="258" height="38" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-weight: 450">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="index.html" id="nav-home">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown pe-4 d-flex align-items-center">
+                        <a class="nav-link" href="about.html" id="nav-about">
+                            About Us
+                        </a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 0px;">
+                            <span class="dropdown-toggle-icon"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="people.html" id="nav-people">People</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="gallery.html" id="nav-gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="blog.html" id="nav-blog">Blog</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="training.html" id="nav-training">Training & courses</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="testimonials.html" id="nav-testimonials">Testimonials</a>
+                    </li>
+
+                    <li class="nav-item pe-4">
+                        <a class="nav-link" href="contact.html" id="nav-contact">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Login Button -->
+                <a href="/Home/Login" class="btn btn-outline-primary" style="font-size: 21px">Login</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+</header>
+
+
+    <!-- center  --> 
+        <div class="page-header text-left" style="background-color: #084575;">
+            <div class="row align-items-center">
+                <div class="col-sm-12">
+                    <div aria-label="breadcrumb" class="text-center text-white">
+                        <h2 class="title">About Us</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6 container-fluid">
+                <h2 class="section-heading text-center py-4" style="color: #175d65;">Educate, Empower, Elevate.</h2>
+               <p class="mx-3" style="padding: 10px; font-size: 16px; font-family: 'Poppins', sans-serif; margin-top: 20px;">
+                    At Power of Investment, we are committed to empowering individuals with  the knowledge and skills needed for financial independence. Through our comprehensive financial literacy programs and specialized stock market training, we cater to all levels, from beginners to advanced learners, helping bridge the gap in financial knowledge.<br><br>
+                    Our focus is on providing practical, expert-led education that enables informed investment decisions, reducing risks from misinformation. We aim to expand financial literacy across India and beyond, with special initiatives for underserved communities, bringing essential financial education to rural areas.<br><br>
+                    Offering a variety of paid and free courses, along with extensive free resources, our platform supports learners at every stage of their financial journey. Our mission is to ensure everyone has the tools to grow wealth, secure their future, and achieve long-term financial success.<br><br>
+                    Join us in our mission to make financial empowerment accessible to all, as we strive to become a leading financial education platform.
+                </p>
+           </div>
+<div class="col-md-6">
+<img class="rounded-circle img-fluid" style="margin-top: 120px;" src="https://i.pinimg.com/564x/43/ce/02/43ce0205a329021f8ef0de545331bf68.jpg" alt="" />
+</div>
+
+
+        </div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6"> 
+                <div class="vision-icon mb-3">
+                    <img class="img-fluid" src="https://img.icons8.com/ios-filled/50/ffffff/visible.png" alt="Vision Icon"/>
+                </div>
+                    <h3>Our vision</h3>
+                    <h6>
+"Create a world where financial freedom is within everyone’s reach.”</h6>
+                    <p>At Power of Investment, our vision is to build a future where individuals, regardless of their background or circumstances, have the confidence and capability to manage their finances effectively, make informed investment choices, and achieve lasting financial independence.
+We are dedicated to providing accessible, high-quality financial education that equips individuals with the essential tools and insights needed to secure their financial well-being. By fostering financial literacy, we aim to empower people to take control of their financial futures and succeed in today’s rapidly evolving economy.</p>
+        </div>
+          <div class="col-md-6">
+            <div class="icon mb-3">
+                <img class="img-fluid" src="https://img.icons8.com/ios-filled/50/ffffff/goal.png" alt="Mission Icon"/>
+            </div>
+            <div>
+                <h3>Our mission</h3><br>
+                <p>Our mission is to empower individuals with the knowledge and resources necessary to navigate the complexities of the financial world confidently. Through specialized stock market training and comprehensive financial literacy programs, we enable informed decision-making that aligns with each individual’s financial objectives.
+Additionally, we are committed to promoting financial literacy and inclusivity through our initiatives, aiming to raise financial awareness and elevate communities both in India and globally.</p>
+            </div>
+        </div>
+    </div>
+      <!--   <div class="col-md-6">
+            <div class="icon mb-3">
+                <img class="img-fluid" src="https://img.icons8.com/ios-filled/50/ffffff/goal.png" alt="Mission Icon"/>
+            </div>
+            <div>
+                <h3>Our mission</h3>
+                <p>Our mission is to empower our clients with the knowledge and tools they need to make informed investment decisions that align with their financial goals.</p>
+            </div>
+        </div> -->
+    </div>
+</div>
+
+        <div class="page-header" style="background-color: #084575;">
+        <div class="row align-items-center">
+            <div class="col-sm-12">
+                <div aria-label="breadcrumb" class="text-center">
+                    <h2 class="title" style="margin-top: -100px;">See What you can learn with us!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5" style="margin-bottom: 50px;">
+        <div class="row">
+            <!-- 1st column -->
+            <div class="col-md-3">
+                <div class="section1 text-center">
+                    <h3 class="section-heading text-center" style="color: #175d65;">Blogs</h3>
+                        <img src="content/img/Blog/BlogThumbnail3.jpg"
+                            alt="Right Image" class="img-fluid">
+                        <p class="mt-2 text-left" style="direction: ltr;">
+                             We offer expert financial education, tax planning, and advice, and host financial literacy programs in rural areas to empower underprivileged communities.
+                        </p>
+                        <a href="blog.html" class="btn" onclick="toggleText('trainer')" id="trainerToggleButton">Read More</a> 
+                </div>
+            </div>
+
+            <!-- 2nd column -->
+            <div class="col-md-3">
+                <div class="section1 text-center">
+                    <h3 class="section-heading text-center" style="color: #175d65;">Paid Training</h3>
+                        <img src="img/paid.jpg"
+                            alt="Right Image" class="img-fluid">
+                        <p class="mt-2 text-left" style="direction: ltr;" >Our mission is to empower our clients with the knowledge and tools they need to make informed
+                            investment decisions that align with their financial goals.</p>
+                        <a href="training.html" class="btn" onclick="toggleText('trainer')" id="trainerToggleButton">Read More</a> 
+                </div>
+            </div>
+
+            <!-- 3rd Column -->
+            <div class="col-md-3">
+                <div class="section1 text-center">
+                    <h3 class="section-heading text-center" style="color: #175d65;">Webinar</h3>
+                    <img src="img/webinar.jpg"
+                        alt="Left Image" class="img-fluid">
+                    
+                    <p class="mt-2 text-left" style="direction: ltr;" >
+                        This is a 3 months mentorship program. We will start with the basics of
+                        investments then dive deep into the fundamental and technical analysis of making
+                        investments.
+                    </p>
+                    <a href="" class="btn" onclick="toggleText('trainer')" id="trainerToggleButton">Read More</a>
+                    
+                    <!-- <div id="courseExtraContent" style="display: none;">
+                        <button type="button" class="btn btn-info mt-2">Explore more</button>
+                    </div> -->
+                </div>
+            </div>
+            
+            <!-- 4th Column -->
+            <div class="col-md-3">
+                <div class="section1 text-center">
+                    <h3 class="section-heading text-center" style="color: #175d65;">Free Resources</h3>
+                    <img src="img/Freeresources.jpg"
+                        alt="Right Image" class="img-fluid">
+                    
+                    <p class="mt-2 text-left" style="direction: ltr;" >
+                        Explore our free resources to enhance your skills. Check out our latest videos on finance, investment, and more to get expert advice and more from our YouTube channel.
+                    </p>
+                        <a href="https://www.youtube.com/channel/UCu2yAW-QvE4C87WE8lDhhwg" class="btn" onclick="toggleText('trainer')" id="trainerToggleButton">Read More</a>
+                    </div>
+                </div>
+            </div> 
+            <!-- Permanent Register Button -->
+    <a href="register.html">
+        <button id="permanent-register-btn" class="permanent-register-btn">
+          Register <br>Here
+        </button>
+      </a>
+      <a href="https://web.whatsapp.com/send?phone=8287700609&text=Hello!%20I%20need%20assistance." 
+       class="whatsapp-chat-button" 
+       target="_blank" 
+       title="Chat with us on WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    </div> 
+        </div>
+
+    <!-- center end -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-light footer mt-2 py-3 wow fadeIn"
+        style="background-image: linear-gradient(to right top, #063860, #063860)" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="fa fa-phone-alt me-2"></span>
+                    <a href="javascript:void(0)" id="contact-link" class="text-decoration-none" style="color: white;">+918287700609</a>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-envelope me-3"></i>
+                    <a href="mailto:info@powerofinvestment.co.in" class="text-decoration-none text-light">info@powerofinvestment.co.in</a>
+                </div>
+
+                <div class="col-md-4 d-flex align-items-center">
+    <div class="col">
+        <a href="https://www.facebook.com/Power-Of-Investments-100214445387988/" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-facebook-f" style="color: #000;"></i>
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://www.youtube.com/channel/UCu2yAW-QvE4C87WE8lDhhwg" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-youtube" style="color: #000;"></i>
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://www.instagram.com/invites/contact/?i=y7eb0xbkkw7m&utm_content=oiuzi48" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-instagram" style="color: #000;"></i>
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://t.me/power_of_investment" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-telegram-plane" style="color: #000;"></i>
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://www.twitter.com" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-twitter" style="color: #000;"></i>
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://www.linkedin.com" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-linkedin-in" style="color: #000;"></i>
+        </a>
+    </div>
+</div>
+
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <a href="#" class="btn btn-outline-primary btn-block mb-2">Privacy Policy</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="btn btn-outline-primary btn-block mb-2">Terms of Use</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn btn-outline-primary btn-block mb-2">Refund Policy</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn btn-outline-primary btn-block mb-2">FAQs</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn btn-outline-primary btn-block mb-2">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+     <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4" style="background-color: #0080ff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy;
+                    <a class="border-bottom" href="https://powerofinvestment.co.in"></a>Power of investment/, All Right
+                    Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed By Power of investment
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" id="backToTopBtn" class="btn btn-lg btn-primary btn-lg-square rounded-circle" style="
+        position: fixed; 
+        bottom: 20px; 
+        right: 20px; 
+        display: none; /* Initially hidden */
+        z-index: 1000; /* Ensure it appears above other content */
+    ">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+    <script>
+         window.onscroll = function() {
+            var backToTopButton = document.getElementById('backToTopBtn');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        };
+    </script>
+
+    <!-- JavaScript Libraries -->
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- jQuery (Non-Slim Version for full functionality) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- Popper.js for Bootstrap tooltips and popovers -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGzF2QNHPLg9FF4O8LqzA3V+pRynKylB4LP4I4vf6XTk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Additional Libraries -->
+    <script src="/Content/lib/wow/wow.min.js"></script>
+    <script src="/Content/lib/easing/easing.min.js"></script>
+    <script src="/Content/lib/waypoints/waypoints.min.js"></script>
+    <script src="/Content/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/Content/lib/counterup/counterup.min.js"></script>
+    <script src="/Content/lib/parallax/parallax.min.js"></script>
+    <script src="/Content/lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="/Content/lib/lightbox/js/lightbox.min.js"></script>
+    <script src="/routejs.axd/8290c657ae6f9a4a25741c6df82a18d30591f807/router.min.js"></script>
+    <script src="/WebHelpers.axd/1050757930eac1f68c57a43e55cf8721be2262f4/webhelpers.js"></script>
+    <script src="/Bundles/js?v=GCeGsjFsLMUur3EAzu0DAtBrbOeY9c25n_ZT-QSmJgU1"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="/Content/js/main.js"></script>
+    <!-- for table  -->
+ 
+    <!-- Ensure proper functioning of carousel -->
+    <script>
+        $("#carouselExampleIndicators").carousel({
+            interval: 20000,
+        });
+    </script>
+    <!-- POPUP -->
+ 
+
+    <!-- navbar fixed -->
+    <script>
+        window.addEventListener("scroll", function () {
+            var headerHeight = document.querySelector("header").offsetHeight;
+            var navbar = document.querySelector(".navbar");
+
+            if (window.scrollY >= headerHeight) {
+                navbar.classList.add("fixed-nav");
+            } else {
+                navbar.classList.remove("fixed-nav");
+            }
+        });
+    </script>
+    <script>
+        // Function to detect if the user is on a mobile device
+        function isMobile() {
+            return /Mobi|Android|iPhone/i.test(navigator.userAgent);
+        }
+
+        // Get the contact link element
+        var contactLink = document.getElementById('contact-link');
+
+        // Set the appropriate behavior based on the device
+        if (isMobile()) {
+            // For mobile, clicking the link should start a call
+            contactLink.setAttribute('href', 'tel:+918287700609');
+        } else {
+            // For desktop, clicking the link should open WhatsApp
+            contactLink.setAttribute('href', 'https://wa.me/918287700609');
+        }
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get current page
+            const currentPage = window.location.pathname.split("/").pop();
+            const menuItems = document.querySelectorAll(".nav-link");
+
+            menuItems.forEach(item => {
+                // Check if the href attribute matches the current page
+                if (item.getAttribute("href").includes(currentPage)) {
+                    item.classList.add("active");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Master Stock Market Trading & Investment | Leading Financial Education Institute - Power of Investment</title>
+    <!-- <meta name="description" content="Join India's Leading Share Market Training Institute and master stock market strategies with expert guidance. Our comprehensive courses offer practical skills and knowledge for success, no prior experience needed. Start your trading journey today!">
+    <meta name="keywords" content="Stock Market Training, Share Market Course, Stock Trading Classes, Learn Stock Market, Share Market Training Institute, Stock Market Strategies, Stock Market For Beginners, Stock Market Certification, Best Share Market Course, Stock Market Education">
+ -->
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <link href="./Content/img/favicon.ico" rel="icon" />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Libraries Stylesheet -->
+
+    <link href="./Content/css/style1.css" rel="stylesheet" />
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css" rel="stylesheet">
+    <style>
+        .profile-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            background-color: #f9f9f9;
+        }
+
+        .profile-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        /* .profile-contact {
+            flex-grow: 1;
+        }
+*/
+        .profile-contact h5 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .profile-contact p {
+            margin: 0;
+            color: gray;
+            font-size: 14px;
+        }
+
+        .profile-contact {
+            text-align: right;
+        }
+
+        .profile-contact a {
+            display: block;
+            color: gray;
+            font-size: 14px;
+        }
+
+        /* Alternate layout for right-sided profile image */
+        .profile-card.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .profile-card.reverse .profile-img {
+            margin-left: 15px;
+            margin-right: 0;
+        }
+
+        .profile-card.reverse .profile-contact {
+            text-align: left;
+        }
+
+        .gallery {
+            cursor: pointer;
+        }
+
+        .img-hove {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .hover-para {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Popup styles */
+        .profile-popup {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 100;
+            /* Sit on top */
+            left: 0;
+            top: -50px;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            background-color: rgba(0, 0, 0, 0.8);
+            /* Black background with opacity */
+        }
+
+        .profile-popup-content {
+            background-color: white;
+            margin: 10% auto;
+            /* 10% from the top and centered */
+            padding: 20px;
+            border-radius: 15px;
+            width: 40%;
+            /* Could be more or less, depending on screen size */
+            text-align: center;
+            position: relative;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #aaa;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            color: black;
+        }
+
+        .profile-card .profile-details {
+            color: black !important;
+            /* Force text color to black */
+            font-size: 14px !important;
+            /* Force smaller font size */
+            line-height: 1.5 !important;
+            /* Optional: Adjust line spacing for readability */
+        }
+        .row.mt-5 .btn {
+            color: white !important; /* Change text color to white */
+        }
+    </style>
+</head>
+
+<body class="hold-transition skin-green sidebar-mini">
+
+    <header class="main-header fixed-top">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white sticky-top">
+                <div class="container-fluid">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="/Home/Index">
+    <img src="content/img/logohome.png" alt="Logo" class="img-fluid" style="width: 258px; height: 38px;" />
+</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-weight: 450">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item pe-4">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown pe-4 d-flex align-items-center">
+                                <a class="nav-link" href="about.html">
+                                    About Us
+                                </a>
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 0px;">
+                                    <span class="dropdown-toggle-icon"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="people.html">People</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a class="nav-link" href="training.html">Training & courses</a>
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a class="nav-link" href="testimonials.html">Testimonials</a>
+                            </li>
+
+                            <li class="nav-item pe-4">
+                                <a class="nav-link" href="contact.html">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>                            
+                        </ul>
+                        <!-- Login Button -->
+                        <a href="/Home/Login" class="btn btn-outline-primary"
+                            style="font-size: 21px">Login</a>
+                    </div>
+                </div>
+            </nav>
+        <!-- Navbar End -->
+
+    </header>
+    <!-- center start -->
+    <div class="team-box text-white" style="height: 220px; margin-top: 65px; background-color: #2881c9;">
+        <h2 class="pt-5 ps-5" style="font-weight: 1000; font-size: 40px; ">Meet our talented team</h2>
+        <p class="ps-5 fs-5">You're in good hands.</p>
+    </div>
+
+    <div class="our-team">
+        <!-- <p class="team-t pt-5 ps-5" style="color: green; font-weight: 500;">OUR TEAM</p>
+        <h3 class="ps-5" style="font-weight: 500;">Learn more about our team</h3> -->
+         <p class="team-t pt-5 ps-5 text-left" style="color: green; font-weight: 800;">Program Overview: Unlock Your Financial Potential</p>
+        <p class="ps-5 me-3 text-left" style="font-weight: 100;">Ready to transform your financial future? Our dynamic 3-month mentorship program is designed to guide you step by step through the world of investing. Whether you're a complete beginner or a seasoned pro, this immersive experience will take you from mastering the basics to conquering advanced investment strategies like fundamental and technical analysis.<br>
+But it doesn’t stop there—this program goes beyond numbers. We dive deep into developing your trading psychology, helping you stay confident and composed in the ever-changing market. You'll also uncover long-term wealth-building strategies that empower you to grow and protect your financial future.</p><br>
+<h6 class="ps-5 me-3 text-left">What Sets This Program Apart:</h6>
+<ul class="ps-5 me-3 text-left">
+    <li>Industry Experts at Your Fingertips: Learn from seasoned professionals who live and breathe the market.</li>
+    <li>Real-World Application: Engage in hands-on simulations and real-market scenarios to apply what you learn immediately.</li>
+    <li>Flexible Learning: Choose from online classes or classroom recordings to suit your schedule and learning style.</li>
+    <li>Lifelong Support: Get continuous guidance even after completing the program.</li>
+    <li>Valuable Connections: Build a network of peers and experts, opening doors for collaboration and future opportunities.</li>
+</ul>
+
+<h6 class="ps-5 me-3 text-left">Why You Can't Miss This:</h6>
+<p class="ps-5 me-3 text-left">
+    By the end of the program, you'll not only understand investment principles but also have the confidence and skills to make savvy financial decisions. This is your chance to boost your returns, grow your wealth, and set yourself up for long-term financial success.
+</p>
+<p class="ps-5 me-3 text-left">
+    This isn’t just education—it’s a transformation. Join us and take control of your financial future today.
+</p>
+
+
+
+
+        <div class="container team-section mt-5">
+            <!-- First row -->
+            <div class="row text-center">
+                <!-- 1st profile -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="card shadow profile-card">
+                        <div class="card-body py-4 mt-2">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="content/img/1f.png"
+                                    class="rounded-circle shadow-1-strong orange-border" width="100"
+                                    height="100" />
+                            </div>
+                            <h5 class="font-weight-bold">Prasanna Kumar Rath</h5>
+                            <h6 class="font-weight-bold my-3">Founder</h6>
+                            <p class="mb-2">He is a retired government employee, with a keen interest in the financial market...</p>
+                            <button id="courseToggleButton1" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#readMoreModal1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd profile -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="card shadow profile-card">
+                        <div class="card-body py-4 mt-2">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="content/img/2cf.png"
+                                    class="rounded-circle shadow-1-strong orange-border" width="100"
+                                    height="100" />
+                            </div>
+                            <h5 class="font-weight-bold">Alok Bhardwaj</h5>
+                            <h6 class="font-weight-bold my-3">Co-Founder</h6>
+                            <p class="mb-2">He is the Co-Founder and Director at India's leading think tank organisation CSEPR...</p>
+                            <button id="courseToggleButton2" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#readMoreModal2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd profile -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="card shadow profile-card">
+                        <div class="card-body py-4 mt-2">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(17).webp"
+                                    class="rounded-circle shadow-1-strong orange-border" width="100"
+                                    height="100" />
+                            </div>
+                            <h5 class="font-weight-bold">Alexa Horwitz</h5>
+                            <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
+                            <p class="mb-2">He is the Co-Founder and Director at India's leading think tank organisation CSEPR...</p>
+                            <button id="courseToggleButton3" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#readMoreModal3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4th profile -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="card shadow profile-card">
+                        <div class="card-body py-4 mt-2">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(17).webp"
+                                    class="rounded-circle shadow-1-strong orange-border" width="100"
+                                    height="100" />
+                            </div>
+                            <h5 class="font-weight-bold">Alexa Horwitz</h5>
+                            <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
+                            <p class="mb-2">He is the Co-Founder and Director at India's leading think tank organisation CSEPR...</p>
+                            <button id="courseToggleButton4" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#readMoreModal4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Second row -->
+            <div class="row text-center mt-3">
+                <!-- 5th profile -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="card shadow profile-card">
+                        <div class="card-body py-4 mt-2">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="content/img/2cf.png"
+                                    class="rounded-circle shadow-1-strong orange-border" width="100"
+                                    height="100" />
+                            </div>
+                            <h5 class="font-weight-bold">Alok Bhardwaj</h5>
+                            <h6 class="font-weight-bold my-3">Co-Founder</h6>
+                            <p class="mb-2">He is the Co-Founder and Director at India's leading think tank organisation CSEPR...</p>
+                            <button id="courseToggleButton5" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#readMoreModal5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6th profile -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="card shadow profile-card">
+                        <div class="card-body py-4 mt-2">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(17).webp"
+                                    class="rounded-circle shadow-1-strong orange-border" width="100"
+                                    height="100" />
+                            </div>
+                            <h5 class="font-weight-bold">Alexa Horwitz</h5>
+                            <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
+                            <p class="mb-2">He is the Co-Founder and Director at India's leading think tank organisation CSEPR...</p>
+                            <button id="courseToggleButton6" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#readMoreModal6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 7th profile -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="card shadow profile-card">
+                        <div class="card-body py-4 mt-2">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="content/img/1f.png"
+                                    class="rounded-circle shadow-1-strong orange-border" width="100"
+                                    height="100" />
+                            </div>
+                            <h5 class="font-weight-bold">Prasanna Kumar Rath</h5>
+                            <h6 class="font-weight-bold my-3">Founder</h6>
+                            <p class="mb-2">He is a retired government employee, with a keen interest in the financial market...</p>
+                            <button id="courseToggleButton7" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#readMoreModal7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 8th profile -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="card shadow profile-card">
+                        <div class="card-body py-4 mt-2">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="content/img/1f.png"
+                                    class="rounded-circle shadow-1-strong orange-border" width="100"
+                                    height="100" />
+                            </div>
+                            <h5 class="font-weight-bold">Prasanna Kumar Rath</h5>
+                            <h6 class="font-weight-bold my-3">Founder</h6>
+                            <p class="mb-2">He is a retired government employee, with a keen interest in the financial market...</p>
+                            <button id="courseToggleButton8" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#readMoreModal8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!-- models -->
+        <!-- Modal for 1st Profile -->
+        <div class="modal fade" id="readMoreModal1" tabindex="-1" aria-labelledby="readMoreModalLabel1"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="readMoreModalLabel1">Prasanna Kumar Rath (Founder)</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center">
+                        <div class="photo mb-3">
+                            <img src="content/img/1f2.png" style="height: 150px;" alt="Founder's photo" class="img-fluid">
+                        </div>
+                        <p>
+                            He is a retired government employee, with a keen interest in the financial market. Over the
+                            years he
+                            has seen many bull & bear markets. Due to lack of education, retail investors always end up
+                            on the
+                            losing side. His aim is to make retail investors independent & empowered by providing them
+                            with the
+                            required education.
+                        </p>
+                        <!-- Navigation Buttons -->
+                        <div class="d-flex justify-content-between w-100 mt-3">
+                            <button class="btn btn-secondary" id="prevProfile" data-bs-dismiss="modal">Previous</button>
+                            <button class="btn btn-secondary" id="nextProfile" data-bs-dismiss="modal">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for 2nd Profile -->
+        <div class="modal fade" id="readMoreModal2" tabindex="-1" aria-labelledby="readMoreModalLabel2"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="readMoreModalLabel2">Alok Bhardwaj (Co-Founder)</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center">
+                        <div class="photo mb-3">
+                            <img src="content/img/2cf2.png"  style="height: 150px;" alt="Co-Founder's photo" class="img-fluid">
+                        </div>
+                        <p>
+                            He is the Co-Founder and Director at India's leading think tank organisation CSEPR. He holds
+                            a
+                            master's degree in Business management with specialization in marketing and finance. He is a
+                            great
+                            advocate of financial literacy. Under the banner of CSEPR, he regularly drives financial
+                            literacy
+                            programs in rural areas.
+                        </p>
+                        <!-- Navigation Buttons -->
+                        <div class="d-flex justify-content-between w-100 mt-3">
+                            <button class="btn btn-secondary" id="prevProfile" data-bs-dismiss="modal">Previous</button>
+                            <button class="btn btn-secondary" id="nextProfile" data-bs-dismiss="modal">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for 3 Profile -->
+        <div class="modal fade" id="readMoreModal3" tabindex="-1" aria-labelledby="readMoreModalLabel3"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="readMoreModalLabel3">Alok Bhardwaj (Co-Founder)</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center">
+                        <div class="photo mb-3">
+                            <img src="content/img/2cf2.png"  style="height: 150px;" alt="Co-Founder's photo" class="img-fluid">
+                        </div>
+                        <p>
+                            He is the Co-Founder and Director at India's leading think tank organisation CSEPR. He holds
+                            a
+                            master's degree in Business management with specialization in marketing and finance. He is a
+                            great
+                            advocate of financial literacy. Under the banner of CSEPR, he regularly drives financial
+                            literacy
+                            programs in rural areas.
+                        </p>
+                        <!-- Navigation Buttons -->
+                        <div class="d-flex justify-content-between w-100 mt-3">
+                            <button class="btn btn-secondary" id="prevProfile" data-bs-dismiss="modal">Previous</button>
+                            <button class="btn btn-secondary" id="nextProfile" data-bs-dismiss="modal">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for 4 Profile -->
+        <div class="modal fade" id="readMoreModal4" tabindex="-1" aria-labelledby="readMoreModalLabel4"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="readMoreModalLabel4">Alok Bhardwaj (Co-Founder)</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center">
+                        <div class="photo mb-3">
+                            <img src="content/img/2cf2.png"  style="height: 150px;" alt="Co-Founder's photo" class="img-fluid">
+                        </div>
+                        <p>
+                            He is the Co-Founder and Director at India's leading think tank organisation CSEPR. He holds
+                            a
+                            master's degree in Business management with specialization in marketing and finance. He is a
+                            great
+                            advocate of financial literacy. Under the banner of CSEPR, he regularly drives financial
+                            literacy
+                            programs in rural areas.
+                        </p>
+                        <!-- Navigation Buttons -->
+                        <div class="d-flex justify-content-between w-100 mt-3">
+                            <button class="btn btn-secondary" id="prevProfile" data-bs-dismiss="modal">Previous</button>
+                            <button class="btn btn-secondary" id="nextProfile" data-bs-dismiss="modal">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for 5 Profile -->
+        <div class="modal fade" id="readMoreModal5" tabindex="-1" aria-labelledby="readMoreModalLabel5"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="readMoreModalLabel5">Alok Bhardwaj (Co-Founder)</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center">
+                        <div class="photo mb-3">
+                            <img src="content/img/2cf2.png"  style="height: 150px;" alt="Co-Founder's photo" class="img-fluid">
+                        </div>
+                        <p>
+                            He is the Co-Founder and Director at India's leading think tank organisation CSEPR. He holds
+                            a
+                            master's degree in Business management with specialization in marketing and finance. He is a
+                            great
+                            advocate of financial literacy. Under the banner of CSEPR, he regularly drives financial
+                            literacy
+                            programs in rural areas.
+                        </p>
+                        <!-- Navigation Buttons -->
+                        <div class="d-flex justify-content-between w-100 mt-3">
+                            <button class="btn btn-secondary" id="prevProfile" data-bs-dismiss="modal">Previous</button>
+                            <button class="btn btn-secondary" id="nextProfile" data-bs-dismiss="modal">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for 6 Profile -->
+        <div class="modal fade" id="readMoreModal6" tabindex="-1" aria-labelledby="readMoreModalLabel6"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="readMoreModalLabel6">Alok Bhardwaj (Co-Founder)</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center">
+                        <div class="photo mb-3">
+                            <img src="content/img/2cf2.png"  style="height: 150px;" alt="Co-Founder's photo" class="img-fluid">
+                        </div>
+                        <p>
+                            He is the Co-Founder and Director at India's leading think tank organisation CSEPR. He holds
+                            a
+                            master's degree in Business management with specialization in marketing and finance. He is a
+                            great
+                            advocate of financial literacy. Under the banner of CSEPR, he regularly drives financial
+                            literacy
+                            programs in rural areas.
+                        </p>
+                        <!-- Navigation Buttons -->
+                        <div class="d-flex justify-content-between w-100 mt-3">
+                            <button class="btn btn-secondary" id="prevProfile" data-bs-dismiss="modal">Previous</button>
+                            <button class="btn btn-secondary" id="nextProfile" data-bs-dismiss="modal">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Modal for 7 Profile -->
+         <div class="modal fade" id="readMoreModal7" tabindex="-1" aria-labelledby="readMoreModalLabel7"
+         aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h5 class="modal-title" id="readMoreModalLabel7">Alok Bhardwaj (Co-Founder)</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body d-flex flex-column align-items-center">
+                     <div class="photo mb-3">
+                         <img src="content/img/2cf2.png"  style="height: 150px;" alt="Co-Founder's photo" class="img-fluid">
+                     </div>
+                     <p>
+                         He is the Co-Founder and Director at India's leading think tank organisation CSEPR. He holds
+                         a
+                         master's degree in Business management with specialization in marketing and finance. He is a
+                         great
+                         advocate of financial literacy. Under the banner of CSEPR, he regularly drives financial
+                         literacy
+                         programs in rural areas.
+                     </p>
+                     <!-- Navigation Buttons -->
+                     <div class="d-flex justify-content-between w-100 mt-3">
+                         <button class="btn btn-secondary" id="prevProfile" data-bs-dismiss="modal">Previous</button>
+                         <button class="btn btn-secondary" id="nextProfile" data-bs-dismiss="modal">Next</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+      <!-- Modal for 8 Profile -->
+      <div class="modal fade" id="readMoreModal8" tabindex="-1" aria-labelledby="readMoreModalLabel8"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="readMoreModalLabel8">Alok Bhardwaj (Co-Founder)</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body d-flex flex-column align-items-center">
+                  <div class="photo mb-3">
+                      <img src="content/img/2cf2.png"  style="height: 150px;" alt="Co-Founder's photo" class="img-fluid">
+                  </div>
+                  <p>
+                      He is the Co-Founder and Director at India's leading think tank organisation CSEPR. He holds
+                      a
+                      master's degree in Business management with specialization in marketing and finance. He is a
+                      great
+                      advocate of financial literacy. Under the banner of CSEPR, he regularly drives financial
+                      literacy
+                      programs in rural areas.
+                  </p>
+                  <!-- Navigation Buttons -->
+                  <div class="d-flex justify-content-between w-100 mt-3">
+                      <button class="btn btn-secondary" id="prevProfile" data-bs-dismiss="modal">Previous</button>
+                      <button class="btn btn-secondary" id="nextProfile" data-bs-dismiss="modal">Next</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+        <!-- <div class="profile1 border d-flex justify-content-center align-items-center flex-column flex-md-row px-3 px-md-5 w-100 w-md-75 mx-auto mt-5">
+            <div class="photo1 mb-3 mb-md-0">
+                <img src="content/img/1f2.png" style="height: 250px; width: 200px;" alt="Founder's photo" class="img-fluid">
+            </div>
+            <div class="about1  w-md-50 px-5"
+                style=" margin-left: 250px; margin-top: 20px;  width: 420px;">
+                <h4>Prasanna Kumar Rath</h4>
+                <span><h6>(Founder)</h6></span>
+                <p class="mt-2" id="courseMoreText" style="display: none;">He is a retired government employee, with a keen interest in the financial market. Over the years he
+                    has seen many bull & bear markets.Due to lack of education, retail investors always end up on the
+                    losing side. His aim is to make retail investors independent & empowered by providing them with the
+                    required education.</p>
+                    <p id="courseTextSnippet">
+                        He is a retired government employee, with a keen interest in the financial market. Over the years he
+                    has seen many bull & bear markets...
+                    </p>
+                    <button onclick="toggleText('course')" id="courseToggleButton" class="btn">Read More</button>
+                    
+                   
+            </div>
+        </div>
+        <div class="profile2 d-flex justify-content-center align-items-center flex-column flex-md-row px-3 px-md-5 w-100 w-md-75 mx-auto mt-3">
+            <div class="about2 w-md-50"
+                style=" margin-top: 20px; width: 420px;">
+                <h4>Alok Bhardwaj</h4>
+                <span><h6> (Co-Founder)</h6></span>
+                <p class="mt-2" id="trainerMoreText" style="display: none;">He is the Co-Founder and Director at India's leading think tank organisation CSEPR. He holds a
+                    master's degree in Business management with specialization in marketing and finance. He is a great
+                    advocacy of financial literacy. Under the banner of CSEPR he regularly drives financial literacy
+                    program in the rural areas..</p>
+                    <p class="text" id="trainerTextSnippet">
+                        He is the Co-Founder and Director at India's leading think tank organisation CSEPR. He holds a
+                    master's degree in...
+                    </p>
+                    <button onclick="toggleText('trainer')" id="trainerToggleButton" class="btn">Read More</button>
+            </div>
+            <div class="photo2 mb-3 mb-md-0" style="margin-left: 200px;">
+                <img src="content/img/2cf2.png" style="height: 250px; width: 200px;" alt="Co-Founder's photo" class="img-fluid">
+            </div>
+        </div> -->
+
+        <!-- Permanent Register Button -->
+        <a href="register.html">
+        <button id="permanent-register-btn" class="permanent-register-btn">
+            Register <br>Here
+        </button>
+    </a>
+     <a href="https://web.whatsapp.com/send?phone=8287700609&text=Hello!%20I%20need%20assistance." 
+       class="whatsapp-chat-button" 
+       target="_blank" 
+       title="Chat with us on WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+        <script>
+// Function to detect if the user is on a mobile device
+function isMobile() {
+    return /Mobi|Android|iPhone/i.test(navigator.userAgent);
+}
+
+// Get the contact link element
+var contactLink = document.getElementById('contact-link');
+
+// Set the appropriate behavior based on the device
+if (isMobile()) {
+    // For mobile, clicking the link should start a call
+    contactLink.setAttribute('href', 'tel:+918287700609');
+} else {
+    // For desktop, clicking the link should open WhatsApp
+    contactLink.setAttribute('href', 'https://wa.me/918287700609');
+}
+</script>
+
+    </div>
+
+    <!-- Center end -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-light footer mt-2 py-3 wow fadeIn"
+        style="background-image: linear-gradient(to right top, #063860, #063860)" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="fa fa-phone-alt me-2"></span>
+                    <a href="javascript:void(0)" id="contact-link" class="text-decoration-none" style="color: white;">+918287700609</a>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-envelope me-3"></i>
+                    <a href="mailto:info@powerofinvestment.co.in" class="text-decoration-none text-light">info@powerofinvestment.co.in</a>
+                </div>
+
+                <div class="col-md-4 d-flex align-items-center">
+    <div class="col">
+        <a href="https://www.facebook.com/Power-Of-Investments-100214445387988/" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-facebook-f" style="color: #000;"></i>
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://www.youtube.com/channel/UCu2yAW-QvE4C87WE8lDhhwg" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-youtube" style="color: #000;"></i>
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://www.instagram.com/invites/contact/?i=y7eb0xbkkw7m&utm_content=oiuzi48" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-instagram" style="color: #000;"></i>
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://t.me/power_of_investment" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-telegram-plane" style="color: #000;"></i>
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://www.twitter.com" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-twitter" style="color: #000;"></i>
+        </a>
+    </div>
+    <div class="col">
+        <a href="https://www.linkedin.com" target="_blank"
+           style="color: #000; background-color: #fff; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 10px; text-decoration: none;"
+           onmouseover="this.style.backgroundColor='#e0e0e0';" onmouseout="this.style.backgroundColor='#fff';">
+            <i class="fab fa-linkedin-in" style="color: #000;"></i>
+        </a>
+    </div>
+</div>
+
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <a href="#" class="btn btn-outline-primary btn-block mb-2">Privacy Policy</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="btn btn-outline-primary btn-block mb-2">Terms of Use</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn btn-outline-primary btn-block mb-2">Refund Policy</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn btn-outline-primary btn-block mb-2">FAQs</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn btn-outline-primary btn-block mb-2">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4" style="background-color: #0080ff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy;
+                    <a class="border-bottom" href="https://powerofinvestment.co.in"></a>Power of investment/, All Right
+                    Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed By Power of investment
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+   <a href="#" id="backToTopBtn" class="btn btn-lg btn-primary btn-lg-square rounded-circle" style="
+        position: fixed; 
+        bottom: 20px; 
+        right: 20px; 
+        display: none; /* Initially hidden */
+        z-index: 1000; /* Ensure it appears above other content */
+    ">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+    <script>
+         window.onscroll = function() {
+            var backToTopButton = document.getElementById('backToTopBtn');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        };
+    </script>
+
+
+
+    <!-- JS library -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- <script>
+        function toggleText(section) {
+    const moreText = document.getElementById(section + 'MoreText');
+    const snippet = document.getElementById(section + 'TextSnippet');
+    const button = document.getElementById(section + 'ToggleButton');
+    const extraContent = document.getElementById(section + 'ExtraContent');
+
+    if (moreText.style.display === "none") {
+        moreText.style.display = "block";
+        snippet.style.display = "none";
+        button.textContent = "Read Less";
+        extraContent.style.display = "block";
+    } else {
+        moreText.style.display = "none";
+        snippet.style.display = "block";
+        button.textContent = "Read More";
+        extraContent.style.display = "none";
+    }
+} -->
+
+    <!-- <script>
+        function openProfilePopup(profileId) {
+    // Close all popups
+    closeAllPopups();
+    
+    // Show the specific popup
+    var popup = document.getElementById('profile-popup-' + profileId);
+    popup.style.display = 'block';
+}
+
+function closeProfilePopup(profileId) {
+    var popup = document.getElementById('profile-popup-' + profileId);
+    popup.style.display = 'none';
+}
+
+function closeAllPopups() {
+    var popups = document.querySelectorAll('.profile-popup');
+    popups.forEach(function(popup) {
+        popup.style.display = 'none';
+    });
+}
+
+function navigateProfile(direction, currentProfileId) {
+    var totalProfiles = 5; // Total number of profiles
+    var newProfileId = currentProfileId + direction;
+
+    if (newProfileId < 1) {
+        newProfileId = totalProfiles; // Go to last profile if going back from the first profile
+    } else if (newProfileId > totalProfiles) {
+        newProfileId = 1; // Go to first profile if going forward from the last profile
+    }
+
+    openProfilePopup(newProfileId);
+}
+
+
+    </script> -->
+
+<!-- readmore popup -->
+<script>
+    // Event listeners for buttons to show modals
+    document.getElementById('courseToggleButton1').addEventListener('click', function () {
+        var myModal = new bootstrap.Modal(document.getElementById('readMoreModal1'));
+        myModal.show();
+    });
+
+    document.getElementById('courseToggleButton2').addEventListener('click', function () {
+        var myModal = new bootstrap.Modal(document.getElementById('readMoreModal2'));
+        myModal.show();
+    });
+
+    document.getElementById('courseToggleButton3').addEventListener('click', function () {
+        var myModal = new bootstrap.Modal(document.getElementById('readMoreModal3'));
+        myModal.show();
+    });
+
+    // Remove modal backdrop after the modal is hidden
+    document.addEventListener('hidden.bs.modal', function (event) {
+        var backdrop = document.querySelector('.modal-backdrop');
+        if (backdrop) {
+            backdrop.remove();
+        }
+        document.body.style.overflow = ''; // Reset the overflow style
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Get all profile modals
+        var modals = {
+            'readMoreModal1': 'readMoreModal2',
+            'readMoreModal2': 'readMoreModal3',
+            'readMoreModal3': 'readMoreModal1'
+        };
+
+        // Event listeners for navigation buttons
+        document.querySelectorAll('.modal-body .btn-secondary').forEach(function (button) {
+            button.addEventListener('click', function () {
+                var currentModal = this.closest('.modal');
+                var nextModalId = modals[currentModal.id];
+                if (this.textContent.includes('Next')) {
+                    var nextModal = document.getElementById(nextModalId);
+                    var myModal = new bootstrap.Modal(nextModal);
+                    myModal.show();
+                } else if (this.textContent.includes('Previous')) {
+                    var prevModalId = Object.keys(modals).find(key => modals[key] === currentModal.id);
+                    var prevModal = document.getElementById(prevModalId);
+                    var myModal = new bootstrap.Modal(prevModal);
+                    myModal.show();
+                }
+            });
+        });
+    });
+</script>
+</body>
+
+</html>

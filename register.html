@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Stock Market Trading & Investment | Leading Financial Education Institute - Power of Investment</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./Content/img/favicon.ico" rel="icon" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Libraries Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="./content/css/style2.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css" rel="stylesheet">
+    <style>
+        body {
+    background-image: url(./img/register.jpeg);
+}
+
+        .form-container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .submit-btn {
+            background-color: #007bff;
+            color: white;
+        }
+        .row.mt-5 .btn {
+            color: white !important; /* Change text color to white */
+        }
+    </style>
+</head>
+<body>
+
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand-lg bg-white sticky-top">
+                <div class="container-fluid">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="/Home/Index">
+    <img src="content/img/logohome.png" alt="Logo" width="258" height="38" />
+</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-weight: 450">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item pe-4">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown pe-4 d-flex align-items-center">
+                                <a class="nav-link" href="about.html">
+                                    About Us
+                                </a>
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 0px;">
+                                    <span class="dropdown-toggle-icon"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="people.html">People</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a class="nav-link" href="training.html">Training & courses</a>
+                            </li>
+                            <li class="nav-item pe-4">
+                                <a class="nav-link" href="testimonials.html">Testimonials</a>
+                            </li>
+
+                            <li class="nav-item pe-4">
+                                <a class="nav-link" href="contact.html">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>                            
+                        </ul>
+                        <!-- Login Button -->
+                        <a href="/Home/Login" class="btn btn-outline-primary"
+                            style="font-size: 21px">Login</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+<div class="container">
+    <div class="form-container">
+        <h3 class="text-center">Enroll in Our Training Program</h3>
+        <form>
+            <div class="form-group">
+                <label for="fullName">Full Name*:</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="emailAddress">Email Address*:</label>
+                <input type="email" class="form-control" id="emailAddress" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+    <label for="phoneNumber">Phone Number*:</label>
+    <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number" required
+        pattern="[0-9]{10}" maxlength="10" oninput="validatePhoneNumber(this);" title="Please enter a 10-digit phone number"> 
+</div>
+
+<script>
+function validatePhoneNumber(input) {
+    // Remove any non-numeric characters
+    input.value = input.value.replace(/[^0-9]/g, '');
+}
+</script>
+
+
+
+            <div class="form-group">
+                <label for="dob">Date of Birth*:</label>
+                <input type="date" class="form-control" id="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="selectCourse">Select Gender:</label>
+                <select class="form-control" id="selectCourse" required>
+                    <option disabled selected>Choose a Gender</option>
+                    <option value="course1">Female</option>
+                    <option value="course2">Male</option>
+                    <option value="course3">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea class="form-control" id="address" rows="2" placeholder="Enter your address" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="pinCode">PIN Code:</label>
+                <input type="text" class="form-control" id="pincode" placeholder="Enter your PIN code" name="pincode" maxlength="6" oninput="fetchPincodeDetails()" required>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" class="form-control" id="city" name="city" readonly>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="state">State:</label>
+                        <input type="text" class="form-control" id="state" name="state" readonly>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="selectCourse">Select Course:</label>
+                <select class="form-control" id="selectCourse" required>
+                    <option disabled selected>Choose a Course</option>
+                    <option value="course1">Mentoring Program</option>
+                    <option value="course2">Options Buying Course</option>
+                    <option value="course3">Options Selling Course</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Payment Options:</label><br>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="creditCard" name="paymentMethod" class="custom-control-input" required>
+                    <label class="custom-control-label" for="creditCard">Credit Card</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="debitCard" name="paymentMethod" class="custom-control-input" required>
+                    <label class="custom-control-label" for="debitCard">Debit Card</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="paypal" name="paymentMethod" class="custom-control-input" required>
+                    <label class="custom-control-label" for="paypal">PayPal</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="upi" name="paymentMethod" class="custom-control-input" required>
+                    <label class="custom-control-label" for="upi">UPI</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="bankTransfer" name="paymentMethod" class="custom-control-input" required>
+                    <label class="custom-control-label" for="bankTransfer">Bank Transfer</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn submit-btn btn-block">SUBMIT REGISTRATION</button>
+            <p class="text-center mt-2"><small>By enrolling, you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.</small></p>
+        </form>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+        function fetchPincodeDetails() {
+            let pincode = document.getElementById('pincode').value;
+            if (pincode.length === 6) {  // PIN codes in India have 6 digits
+                fetch(`https://api.postalpincode.in/pincode/${pincode}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data[0].Status === "Success") {
+                        let postOffice = data[0].PostOffice[0];
+                        document.getElementById('city').value = postOffice.District;
+                        document.getElementById('state').value = postOffice.State;
+                    } else {
+                        alert("Invalid Pincode");
+                        document.getElementById('city').value = '';
+                        document.getElementById('state').value = '';
+                    }
+                })
+                .catch(error => {
+                    console.error("Error fetching data:", error);
+                    alert("Failed to fetch pincode details.");
+                });
+            } else {
+                document.getElementById('city').value = '';
+                document.getElementById('state').value = '';
+            }
+        }
+    </script>
+
+</body>
+</html>
